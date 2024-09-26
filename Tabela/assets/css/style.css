@@ -1,0 +1,21 @@
+.tenis{
+    width:400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: gainsboro;
+    border: 1px solid black;
+}
+th, td{
+    border: 1px solid black;
+    padding: 16%, 30%;
+}
+body{
+    text-align: center;
+}
+thead{
+    background-color: rgb(158, 158, 158);
+}
