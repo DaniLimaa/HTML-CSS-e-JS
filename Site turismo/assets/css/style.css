@@ -13,24 +13,34 @@
 }
 .menu-principal ul{
     list-style: none;
+    /* usado para remover os marcadores padrões da lista */
 }
 .menu-principal ul li{
     display: inline-block;
+    /* faz com que cada item da lista se comporte como um bloco de linha */
 }
 .menu-principal ul li a{
     color: white;
     text-decoration: none;
+    /* remove o sublinhado padrão dos links, deixando-os mais limpos */
     text-transform: uppercase;
+    /* 
+        uppercase: converte tudo para maiúsculo
+        lowercase: converte tudo para minusculo
+        none: remove qualquer transformação
+     */
     padding: 5px 20px;
     border: 1px solid transparent;
+    /* define uma borda invisível ao redor do link. Isso pode ser util para evitar mudanças de layout ao passar o mouse, ja que a borda aparece durante uma intervenção */
     transition: 0.06s ease;
+    /* define uma transição suave para as propriedades que mudam (como cor ou fundo), que ocorrera em 0.06 segundos. Isso cria um efeito visual agradável durante a interação */
 }
 .menu-principal ul li a:hover{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
 }
 .menu-principal ul li .link-ativo{
-    background: white;
+    background: rgb(243, 243, 243);
     color: black;
 }
 .categoria{
@@ -39,4 +49,45 @@
     align-items: center;
     /**/
     justify-content: space-between;
+}
+h1{
+    font-size: 70px;
+    color: white;
+    margin: 30px;
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 80px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.conteudo-banner{
+    height: 438px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* 
+    row: organiza os itens horizontalmente, da esquerda para a direita
+    row-reverse: organiza os itens horizontalmente, da direita para a esquerda
+    column-reverse: organiza os itens verticalmente, de baixo para cima
+    column: organiza os itens verticalmente, de cima para baixo  */
+}
+.galeria2{
+    width: 314px;
+    height: 368px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+}
+#passeios{
+    background: whitesmoke;
 }
