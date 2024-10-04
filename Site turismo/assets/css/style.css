@@ -79,15 +79,63 @@ h1{
     column-reverse: organiza os itens verticalmente, de baixo para cima
     column: organiza os itens verticalmente, de cima para baixo  */
 }
-.galeria2{
-    width: 314px;
-    height: 368px;
+.titulo{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 30px;
-    text-align: center;
-}
-#passeios{
+    justify-content: space-between;
     background: whitesmoke;
+}
+#pagina-galeria main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    background: whitesmoke;
+}
+.fotos{
+    width: 314px;
+    height: 368px;;
+}
+#pagina-galeria figure img{
+    border: 1px solid #555;
+    padding: 3px;
+    border-radius: 5px;
+    transition: transform 0.6s ease;
+}
+#pagina-galeria figcaption{
+    background: #c95e10;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    transition: transform 0.6s ease;
+}
+#pagina-galeria figure:hover{
+    filter: grayscale(100%);
+}
+#pagina-tabela table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid black;
+    width: 40%;
+    background: gainsboro;
+}
+#pagina-tabela main{
+    padding: 90px;
+}
+#pagina-tabela tr th {
+    border: 1px solid black;
+    padding: 20px;
+}
+#pagina-tabela thead{
+    justify-content: space-between;
+}
+.sem-linha{
+    border: none;
+}
+.titulo-tabela{
+    display: flex;
+    justify-content: space-between;
 }

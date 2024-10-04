@@ -17,8 +17,8 @@
                         <!-- nav: Serve para facilitar a navegação dentro do site, como menus e links -->
                         <ul>
                             <li><a href="#">HOME</a></li>
-                            <li><a href="#">SERVIÇO</a></li>
-                            <li><a href="#">GALERIA</a></li>
+                            <li><a href="pagina-tabela">SERVIÇO</a></li>
+                            <li><a href="pagina-galeria">GALERIA</a></li>
                             <li><a href="#">CONTATO</a></li>
                         </ul>
                     </nav>
@@ -34,26 +34,58 @@
         </header>
         <main>
             <!-- main: Representa o conteúdo principal de um documento -->
-            <section id="passeios">
-                <h2>Passeios</h2>
-                <div>
-                    <figure class="galeria2">
-                        <div>
-                            <img src="./assets/img/foto1.png" alt="imagem 1">
-                            <figcaption>Ecoturismo</figcaption>
-                        </div>
-                        <div>
-                            <img src="./assets/img/foto2.png" alt="imagem 2">
-                            <figcaption>Rafting</figcaption>
-                        </div>
-                        <div>
-                            <img src="./assets/img/foto3.png" alt="imagem 3">
-                            <figcaption>Pacote Aventureiro</figcaption>
-                        </div>
-                    </figure>
+            <section id="pagina-galeria">
+                <div class="titulo">
+                    <h2>Passeios</h2>
+                    <a href="pagina-home">Incio da pagina</a>
                 </div>
+                    <main>
+                        <figure>
+                            <img src="./assets/img/foto1.png" class="fotos" alt="imagem 1">
+                            <figcaption>Ecoturismo</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./assets/img/foto2.png" class="fotos" alt="imagem 2">
+                            <figcaption>Rafting</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./assets/img/foto3.png" class="fotos" alt="imagem 3">
+                            <figcaption>Pacote Aventureiro</figcaption>
+                        </figure>
+                    </main>
             </section>
         </main>
+
+            <section id="pagina-tabela">
+                <div class="titulo-tabela">
+                    <h2>Valores</h2>
+                    <a href="pagina-home">Inicio da pagina</a>
+                </div>
+                    <main>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="linha" colspan="2">Passeios Valores</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Canoagem</th>
+                                    <th>R$ 60,00</th>
+                                </tr>
+                                <tr>
+                                    <th>Passeio radical</th>
+                                    <th>R$ 80,00</th>
+                                </tr>
+                                <tr>
+                                    <th>Trilha</th>
+                                    <th>R$ 90,00</th>
+                                </tr>
+                                <th colspan="2">Consulte na recepção os valores atualizados</th>
+                            </tbody>
+                        </table>
+                    </main>
+            </section>
         <footer>
             <!-- footer: Define a seção de rodapé de uma pagina ou seção. Normalmente contem informações de contato, redes sociais, logos, menus de acesso rápido -->
         </footer>
