@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo-americana{
+    display: flex;
+    height: 168px;
+    padding: 107px 81px;
+}
+#pagina-banner{
+    height: 613px;
+    background: linear-gradient(rgba(72, 72, 72, 0.37), rgba(0, 0, 0, 0.25)), url(../img/Imagem-banner.png);
+    background-size: cover;
+}
+.menu-principal ul{
+    list-style: none;
+}
+.menu-principal ul li{
+    display: inline-block;
+}
+.menu-principal ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 16px;
+    font-family: 'Passero one', sans-serif;
+}
+.categorias{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
