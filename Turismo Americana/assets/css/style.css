@@ -8,7 +8,7 @@
     padding: 107px 81px;
 }
 #pagina-banner{
-    height: 613px;
+    height: 630px;
     background: linear-gradient(rgba(72, 72, 72, 0.37), rgba(0, 0, 0, 0.25)), url(../img/Imagem-banner.png);
     background-size: cover;
 }
@@ -30,3 +30,56 @@
     align-items: center;
     justify-content: space-between;
 }
+.titulo-turismo{
+    font-family: 'Passero One', sans-serif;
+    text-align: center;
+    font-size: 52px;
+}
+#galeria-turismo{
+    background-color: #efecec;
+    
+}
+.galeria-fotos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+    
+}
+#galeria-turismo figcaption{
+    font-size: 48px;
+    font-family: 'Passero One', sans-serif;
+    text-align: center;
+}
+.titulo-galeria{
+    font-size: 48px;
+    font-family: 'Passero One', sans-serif;
+    padding: 40px;
+}
+.foto-meio{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.titulo-parceiros{
+    font-size: 48px;
+    font-family: 'Passero One', sans-serif;
+    padding: 36px;
+}
+.imagem-parceiros{
+    background-color: #00c2ff21;
+    border-radius: 51px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin-right: 300px;
+}
+#pagina-parceiros h2{
+    font-size: 48px;
+    font-family: 'Passero One', sans-serif;
+    padding-left: 10px;
+}
+#pagina-parceiros p{
+    font-family: "Alice", serif;
+    font-size: 24px;
+}
+
