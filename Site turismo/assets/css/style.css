@@ -122,6 +122,9 @@ h1{
     width: 40%;
     background: gainsboro;
 }
+#pagina-tabela{
+    background-color: beige;
+}
 #pagina-tabela main{
     padding: 90px;
 }
@@ -132,10 +135,17 @@ h1{
 #pagina-tabela thead{
     justify-content: space-between;
 }
-.sem-linha{
-    border: none;
-}
 .titulo-tabela{
     display: flex;
     justify-content: space-between;
+}
+#rodapé{
+    background-color: #c95e10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rodapé h2{
+    color: white;
+    font-size: 70px;
 }
